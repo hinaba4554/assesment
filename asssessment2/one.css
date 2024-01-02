@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+/* -------------------heading---------------------- */
+.main{
+    margin-top:40px;
+    width: 90%;
+    height: 784px;
+    background-color: lightblue;
+    color:rgb(88, 86, 86);
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+/* --------------------------draw line------------------ */
+.line{
+    margin-top: 25px;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(179 176 173);
+}
+/* ----------------------------heading-------------------------- */
+.main1
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m1{
+    height: 109px;
+    width: 90%;
+    background-color: rgba(238, 236, 233, 0.863);
+    margin-right: 68px;
+    margin-top: 20px;  
+}
+/* ---------------------------text----------------- */
+.s{
+    width: 100%;
+    display: flex;
+}
+.a{
+    font-size: 20px;
+    color: rgb(124, 120, 120);
+}
+.s1{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 50%;
+    height: 100px;
+    color: rgb(124, 120, 120);
+}
+.num{
+    width: 25%;
+    height: 100px;
+}
+.n1{
+padding-top: 30px;
+width: 144px;
+height: 7px;
+font-size: 15px;
+color: rgb(124, 120, 120);
+}
+#n2{
+ color: #5db3d0;
+ width: 230px;
+}
+.map{
+width: 25%;
+height: 100px;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+/* --------------------middle part-------------- */
+.middle{
+transform: translate(24px, 10px);
+display: flex;
+margin-top: 20px;
+width: 90%;
+height: 562px;
+background-color:rgba(238, 236, 233, 0.863); 
+}
+.t1{
+    
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+/* ------------------------using text box---------------------- */
+.text input{
+width: 132px;
+font-size: 15px;
+height: 36px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+padding: 12px 20px;
+}
+textarea{
+font-size: 15px;
+margin-top:7px;
+width: 275px;
+height: 100px;
+border-radius: 7px;
+padding: 12px 20px;   
+}
+button{
+margin-left:15px;
+width: 50%;
+height: 50px;
+background-color: red;
+color: white;
+}
+
+
