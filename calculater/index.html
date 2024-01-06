@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <!-- container -->
+  <div class="container">
+    <div class="calculator">
+      <!-- output display -->
+      <div class="show">
+
+        <pre id="place">DEG</pre>
+        <pre id="upper"></pre>
+        <pre id="lower">0</pre>
+      </div>
+      <!-- button -->
+      <div class="add">
+        <button onclick=" EnterNumber(this)">7</button>
+        <button onclick=" EnterNumber(this)">8</button>
+        <button onclick=" EnterNumber(this)">9</button>
+        <button onclick="AllClear()" id="delete">DEL</button>
+        <button onclick=" EnterNumber(this)">4</button>
+        <button onclick=" EnterNumber(this)">5</button>
+        <button onclick=" EnterNumber(this)">6</button>
+        <button onclick="Operator(this)" id="devided">&div;</button>
+        <button onclick=" EnterNumber(this)">1</button>
+        <button onclick=" EnterNumber(this)">2</button>
+        <button onclick=" EnterNumber(this)">3</button>
+        <button onclick="Operator(this)" id="multiple">&times;</button>
+        <button onclick="Dot()">.</button>
+        <button onclick=" EnterNumber(this)">0</button>
+        <button onclick="Equal()">=</button>
+        <button onclick="Operator(this)" id="minus">-</button>
+        <button onclick="Operator(this)" id="plus">+</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
