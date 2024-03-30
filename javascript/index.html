@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Restaurants Booking form</title>
+   <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div>
+   <form>
+  <table>
+    <tr>
+      <th colspan="2"><h1>Restaurant  Booking</h1></th>
+  </tr>
+  <tr> 
+    <td> 
+  <label for="bookingChoice">Choice of booking:</label>
+</td>
+  <td>
+   <!--<input list="bookingOptions" name="bookingChoice" id="bookingChoice" onchange="showOptions()">
+   <datalist id="bookingOptions" >
+       <option value="Full day booking" id="fullday"></option>
+       <option value="Half day booking" id="halfday"></option>
+       <option value="Hourly booking"   id="hourly"></option>
+   </datalist>-->
+   <select id="bookingtype" onchange="showbookingoptions()">
+      <option value="" disabled selected>-----please select-------</option>
+      <option value="full-day">full day booking</option>
+      <option value="half-day">half day booking</option>
+      <option value="hourly">hourly booking</option>
+  </select>
+</td>
+</tr>
+<tr id="namebox">
+  <td >
+    <label for="">User Name:</label>
+  </td>
+  <td>
+    <input type="name" id="userName" placeholder="Eneter your name" required></td>
+</tr id="mobilebox">
+<td>
+  <label for="mobileNo">Mobile Number:</label>
+</td>
+<td><input type="tel" maxlength="10" id="mobileNo" placeholder="Eneter your Mobileno" required></td>
+</tr>
+<tr id="emailbox">
+  <td>
+    <label for="email">Email:</label>
+  </td>
+  <td><input type="email" id="email" required></td>
+</tr>
+<tr id="personbox">
+  <td>
+    <label for="">No of person:</label>
+  </td>
+  <td><input type="number"  placeholder="Eneter you numberOfPersons"  id="numberOfPersons" required></td>
+</tr>
+<tr>
+<td colspan="2" id="bookingOptions"></td>
+</tr>
+<tr>
+    <td colspan="2" align ="center">
+    <input type="submit"></td>
+</tr>
+</table>
+<div id="Booking-box"></div>
+</form> 
+</div>
+</body>
+<script src="scripts.js"></script>
+</html>
